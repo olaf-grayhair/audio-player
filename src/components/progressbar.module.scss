@@ -1,0 +1,15 @@
+.wrap {
+  margin-top: 20px;
+  width: 100%;
+
+  .time {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+  }
+
+  .progressbar {
+    width: 100%;
+
+  }
+}

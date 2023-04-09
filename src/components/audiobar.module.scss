@@ -1,0 +1,20 @@
+.audiobar{
+  width: 60%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .btn{
+    background-color: inherit;
+    transition: all ease .4s;
+    &:hover{
+      transform: scale(1.1);
+    }
+  }
+
+  input{
+    cursor: pointer;
+    width: 80%;
+  }
+}
